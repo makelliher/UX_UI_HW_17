@@ -1,3 +1,4 @@
+/* header style*/
 .inline-block{
     display: inline-block;
     vertical-align: top;
@@ -7,31 +8,42 @@
     padding: 1%;
     text-align: center;
 }
-.nav{
+.nav {
+    display: inline-block;
     width: 73%;
     padding: 1%;
     width: 50%;
     margin-left: auto;
 }
+/* hero style*/
 .heroImg{
     height: 600px;
     padding: 25px;
 }
 .content{
-    width: 500;
+    width: 500px;
     margin: 0 auto;
 }
+.content button{
+    background-color: #EB7247;
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+}
+/* footer style*/
 .footer{
-    background-color: #373738;
+    background-color: #4E5641;
     padding: center;
     text-align: center;
 }
 
-ul{
+.footer ul{
+    display: inline-block;
+    vertical-align: top;
     padding: center;
     text-align: center;
 }
-li{
+.footer li{
     padding: center;
     text-align: center; 
 }
